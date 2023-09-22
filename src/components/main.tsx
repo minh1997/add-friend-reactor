@@ -7,6 +7,9 @@ const Main: React.FC = () => {
     const startAddFriendProcess = ():void => {
       const addFriendInterval = setInterval(() => {
         const dialog = document.querySelectorAll("div[role='dialog']")[0]
+        
+        // quan trọng: vì fb chống auto crawl rất căng nên không thế lấy chính xác id hoặc class, 
+        // nên các bạn hãy check chính xác ngôn ngữ để bắt đúng label của nút
         const button = dialog.querySelectorAll("div[aria-label='Thêm bạn bè']")[0]
 
         if (button.getAttribute('status-label') === 'added') {
