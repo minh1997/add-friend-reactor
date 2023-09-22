@@ -1,0 +1,18 @@
+{
+    "name": "FB Auto Add Friends",
+    "manifest_version": 3,
+    "version": "1.0",
+    "host_permissions": [
+        "*://*.facebook.com/*"
+      ],
+    "content_scripts": [
+        {
+          "matches": [
+            "https://*.facebook.com/*"
+          ],
+          "js": [
+            "contentScript.js"
+          ]
+        }
+    ]
+}
