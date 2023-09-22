@@ -55,7 +55,7 @@ const Main: React.FC = () => {
             })
           }
         }
-      }, 2000)
+      }, 2000) // đặt ít nhất 2 giây/click add friend vì quá nhanh fb sẽ checkpoint tài khoản
 
       intervals.push(addFriendInterval)
     }
