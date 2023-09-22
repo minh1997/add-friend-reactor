@@ -1,5 +1,10 @@
 # Tự động kết bạn tất cả user reaction post
 
+
+https://github.com/minh1997/add-friend-reactor/assets/11721352/6bbcac40-60b8-4124-8514-190532ced2bd
+
+
+
 ## Installation with yarn
 
 ```
